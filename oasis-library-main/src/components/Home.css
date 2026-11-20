@@ -1,0 +1,155 @@
+.home-wrapper {
+  min-height: 100vh;
+  background: #191919;
+}
+
+.content {
+  width: 100%;
+  min-height: calc(100vh - 100px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  padding: 40px 20px;
+}
+
+.home-badge {
+  display: inline-block;
+  background: rgba(249, 0, 77, 0.15);
+  border: 1px solid rgba(249, 0, 77, 0.35);
+  color: #f9004d;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 6px 20px;
+  border-radius: 20px;
+  margin-bottom: 28px;
+}
+
+.content h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(36px, 5vw, 64px);
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 18px;
+  line-height: 1.15;
+  color: white;
+  background: transparent;
+}
+
+.content h1 span {
+  color: #f9004d;
+  background: transparent;
+}
+
+.content h4 {
+  font-style: italic;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.55);
+  font-weight: 300;
+  margin-bottom: 20px;
+  background: transparent;
+}
+
+.content p {
+  margin: 8px auto;
+  font-weight: 300;
+  line-height: 1.8;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.65);
+  background: transparent;
+}
+
+.choose-text {
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.4) !important;
+  margin-top: 10px !important;
+  letter-spacing: 1px;
+}
+
+.home-buttons {
+  display: flex;
+  gap: 16px;
+  margin-top: 32px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.home-buttons a {
+  text-decoration: none;
+  background: transparent;
+  padding: 0;
+  display: inline-block;
+}
+
+.btt {
+  width: 160px;
+  height: 48px;
+  text-align: center;
+  border-radius: 25px;
+  font-weight: 600;
+  font-size: 14px;
+  border: 2px solid #f9004d;
+  background: #f9004d;
+  color: #fff;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  letter-spacing: 0.5px;
+}
+
+.btt span {
+  background: transparent;
+}
+
+.btt:hover {
+  background: transparent;
+  color: #f9004d;
+}
+
+.btt-ghost {
+  background: transparent;
+  color: rgba(255, 255, 255, 0.75);
+  border: 2px solid rgba(255, 255, 255, 0.25);
+}
+
+.btt-ghost:hover {
+  border-color: #f9004d;
+  color: #f9004d;
+  background: transparent;
+}
+
+.home-stats {
+  display: flex;
+  gap: 48px;
+  margin-top: 60px;
+  padding-top: 40px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.stat {
+  text-align: center;
+  background: transparent;
+}
+
+.stat-num {
+  font-family: 'Playfair Display', serif;
+  font-size: 30px;
+  font-weight: 700;
+  color: #f9004d;
+  background: transparent;
+}
+
+.stat-label {
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.4);
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-top: 4px;
+  background: transparent;
+}

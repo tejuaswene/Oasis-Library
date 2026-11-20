@@ -1,0 +1,135 @@
+.contact-wrapper {
+  min-height: 100vh;
+  background: #111;
+}
+
+.cont {
+  position: relative;
+  display: block;
+  width: 40%;
+  min-width: 340px;
+  margin: 50px auto;
+  padding: 5px 20px;
+  background: transparent;
+}
+
+.cont h1 {
+  color: #fff;
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(48px, 8vw, 70px);
+  font-weight: 100;
+  text-align: center;
+  background: transparent;
+  margin-bottom: 10px;
+}
+
+span.orange {
+  display: inline;
+  font-size: inherit;
+  color: #ffa700;
+  background: transparent;
+}
+
+.contact {
+  width: 100%;
+  padding: 28px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 32px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 20px 0px #0a0a0a;
+  background-color: rgba(255, 255, 255, 0.07);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+form {
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.form-row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 14px;
+  background: transparent;
+}
+
+.c1,
+.c2,
+.c3,
+.c4 {
+  display: inline-block;
+  color: #fff;
+  height: 42px;
+  font-size: 15px;
+  padding: 0 0 0 14px;
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: border-color 0.3s, background 0.3s;
+  outline: none;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.c1:focus,
+.c2:focus,
+.c3:focus,
+.c4:focus {
+  border-color: #f9004d;
+  background-color: rgba(249, 0, 77, 0.06);
+}
+
+.c1,
+.c2 {
+  flex: 1;
+  width: 50%;
+}
+
+.c3 {
+  width: 100%;
+  display: block;
+  margin-bottom: 14px;
+}
+
+.c4 {
+  width: 100%;
+  height: 100px;
+  padding: 10px 14px;
+  resize: vertical;
+  display: block;
+  margin-bottom: 16px;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 14px;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.invalid {
+  border-color: #f9004d !important;
+  background-color: rgba(249, 0, 77, 0.1) !important;
+}
+
+.btt {
+  width: 100%;
+  padding: 14px;
+  background: #f9004d;
+  border: 2px solid #f9004d;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  letter-spacing: 2px;
+  transition: all 0.3s;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.btt:hover {
+  background: transparent;
+  color: #f9004d;
+}

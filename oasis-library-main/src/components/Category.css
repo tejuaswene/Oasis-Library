@@ -1,0 +1,89 @@
+.category-wrapper {
+  min-height: 100vh;
+  background: #111;
+}
+
+.category-header {
+  text-align: center;
+  padding: 50px 20px 30px;
+}
+
+.category-header h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 42px;
+  color: #fff;
+  margin-bottom: 10px;
+  background: transparent;
+}
+
+.category-header p {
+  color: rgba(255, 255, 255, 0.45);
+  font-size: 15px;
+  background: transparent;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  padding: 20px 40px 60px;
+}
+
+.card {
+  width: 200px;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.3s, border-color 0.3s;
+  border: 2px solid transparent;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #1a1a1a;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  border-color: #f9004d;
+}
+
+.card a {
+  display: block;
+  padding: 0;
+  text-decoration: none;
+  background: transparent;
+}
+
+.card img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  display: block;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  background: #2a2a2a;
+}
+
+.card p {
+  font-family: 'Playfair Display', serif;
+  font-size: 16px;
+  color: #fff;
+  padding: 14px 0;
+  margin: 0;
+  letter-spacing: 0.5px;
+  background: transparent;
+}
+
+button {
+  padding: 10px 24px;
+  font-size: 14px;
+  color: white;
+  background-image: radial-gradient(circle, #cc8400, #c20000);
+  border: none;
+  border-radius: 5px;
+  transition: all 0.4s ease-in-out;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.85;
+  cursor: pointer;
+}
